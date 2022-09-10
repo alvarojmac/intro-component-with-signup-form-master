@@ -1,9 +1,10 @@
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     main#container {
         display: flex;
         justify-content: center;
         align-items: center;
         max-width: 90vw;
+        height: 100vh;
     }
 
     section#text {
