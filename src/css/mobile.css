@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --red: #ff7a7a;
+    --green: #38cc8c;
+    --blue: #6055a5;
+    --darkBlue: #3e3c49;
+    --grayishBlue: #b9b6d3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--red);
+    background-image: url('/images/bg-intro-mobile.png');
+}
+
+main#container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 80px 25px;
+}
+
+section#text {
+    color: white;
+    text-align: center;
+}
+
+section#text h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section#text p {
+    color: rgb(226, 226, 226);
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+div.free-trial {
+    background-color: var(--blue);
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
+}
+
+span {
+    color: var(--grayishBlue);
+}
+
+div#div-form {
+    text-align: center;
+    background-color: white;
+    height: 440px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.523) 0px 4px 10px;
+}
+
+form > div > input {
+    font-weight: 600;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(201, 201, 201, 0.322);
+}
+
+button#btn {
+    color: white;
+    background-color: var(--green);
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button#btn:hover {
+    background-color: #4ad99b;
+}
+
+.terms {
+    padding: 0 15px;
+}
+
+small, small > a {
+    color: var(--grayishBlue);
+    font-size: 12px;
+}
+
+small > a {
+    color: var(--red);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+}
+
+.input-error {
+    border: 2px solid red;
+}
