@@ -59,11 +59,10 @@ span {
 }
 
 div#div-form {
-    text-align: center;
+    text-align: right;
     background-color: white;
-    height: 440px;
     border-radius: 10px;
-    padding: 25px;
+    padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.523) 0px 4px 10px;
 }
 
@@ -71,8 +70,9 @@ form > div > input {
     font-weight: 600;
     width: 100%;
     padding: 15px;
-    margin-bottom: 15px;
+    margin-top: 15px;
     border: 1px solid rgba(201, 201, 201, 0.322);
+    border-radius: 5px;
 }
 
 button#btn {
@@ -83,6 +83,7 @@ button#btn {
     text-transform: uppercase;
     width: 100%;
     padding: 15px 0px;
+    margin-top: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
@@ -94,12 +95,14 @@ button#btn:hover {
 }
 
 .terms {
+    text-align: center;
     padding: 0 15px;
 }
 
-small, small > a {
+small {
     color: var(--grayishBlue);
-    font-size: 12px;
+    font-size: 11px;
+    padding: 10px;
 }
 
 small > a {
@@ -108,10 +111,25 @@ small > a {
     text-decoration: none;
 }
 
-.error {
-    color: red;
+input:focus,
+button:focus {
+    outline: none;
 }
 
-.input-error {
+input.error {
     border: 2px solid red;
+    background: url('/images/icon-error.svg') no-repeat;
+    background-position: 95% 50%;
+}
+
+.error-text {
+    color: var(--red);
+    font-size: 12px;
+    font-style: italic;
+    margin-left: auto;
+    margin-top: -15px;
+}
+
+.success {
+    border: 2px solid var(--green);
 }
