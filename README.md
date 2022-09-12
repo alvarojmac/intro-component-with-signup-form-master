@@ -1,10 +1,14 @@
 # Intro Component With Signup Form Master
 ### Frontend Mentor Challenge
 
-#### Mobile
- ![Captura de Tela 2022-09-09 às 21 20 21](https://user-images.githubusercontent.com/99209300/189461168-dd8ef8fa-b658-4b3e-b50a-eee50d0bd6ef.png)
+#### iPhone XR
+![Captura de Tela 2022-09-12 às 16 07 31](https://user-images.githubusercontent.com/99209300/189735797-fdc5579e-bee8-49c5-90e1-60830d60e8b1.png)
+
  
- #### Ipad Air
- ![Captura de Tela 2022-09-09 às 21 25 15](https://user-images.githubusercontent.com/99209300/189461317-e02f9f05-d7c7-4361-976a-221ef6b74ec7.png)
+#### Ipad Air
+![Captura de Tela 2022-09-12 às 16 03 45](https://user-images.githubusercontent.com/99209300/189735493-3ef23ba3-e2f0-4a4e-a3f8-82bfe5a0ed95.png)
+
+![Captura de Tela 2022-09-12 às 15 44 20](https://user-images.githubusercontent.com/99209300/189735533-381ac697-e4e8-4785-8820-a389b19ccf82.png)
+
 
 Acesse o projeto em: https://alvarojmac.github.io/intro-component-with-signup-form-master
